@@ -1,0 +1,15 @@
+---
+title: "Inflammatory Indices"
+output: 
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Proposal"
+      href: proposal.html
+---
+
