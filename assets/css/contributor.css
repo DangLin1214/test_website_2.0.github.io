@@ -1,0 +1,45 @@
+/* 设置团队成员部分的透明背景 */
+#team-members {
+    background-color: rgba(0, 0, 0, 0.3); /* 黑色背景，70% 不透明度 */
+    padding: 40px 20px;
+    border-radius: 10px; /* 可选：添加圆角 */
+}
+
+
+/* 团队成员网格布局 */
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* 单个成员的样式 */
+.member {
+    text-align: center;
+    color: white; /* 设置成员文字为白色 */
+}
+
+.image.round img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffffff; /* 图片的白色边框 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 添加轻微阴影 */
+}
+
+/* 标题和描述文字颜色设置为白色 */
+#team-members h2 {
+    color: white; /* 浅黑色 */
+}
+
+/* 贡献者名字和 ID 文字颜色 */
+.member h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.member p {
+    color: white;
+    font-size: 0.9em;
+}

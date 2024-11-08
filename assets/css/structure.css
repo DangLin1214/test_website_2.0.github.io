@@ -1,0 +1,41 @@
+/* 整个内容背景设置为深灰色透明 */
+#three {
+    background-color: rgba(0, 0, 0, 0.8); /* 深灰色背景，80% 不透明度 */
+}
+
+/* 主标题（大标题）字体大小调整 */
+#three .inner, #three h2 {
+    color: white;
+    font-size: 1.2em; /* 缩小标题大小 */
+}
+
+/* 小区域背景和内容样式 */
+ul.features li {
+    background-color: rgba(0, 0, 0, 0.7); /* 单个区域的背景深灰色透明 */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* 添加阴影 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* 小标题（h3）字体大小调整 */
+ul.features h3 {
+    font-size: 0.8em; /* 缩小小标题大小 */
+    font-weight: bold;
+    margin-top: 6px;
+    color: white;
+}
+
+/* 段落字体大小调整 */
+ul.features p {
+    color: white; /* 段落文字颜色 */
+    font-size: 0.7em; /* 缩小段落字体大小 */
+    margin-top: 4px;
+}
+
+
+
+
